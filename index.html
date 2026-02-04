@@ -1,13 +1,183 @@
-<!DOCTYPE html>
-<html>
-    <head>
-<title>Survival.mc</title>
-    </head>
-    <body>
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>survival.mc — Minecraft сервер</title>
+    <meta name="description" content="Выживание без вайпов, ламповое комьюнити, экономика, события и честный геймплей. IP: survival.mc" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg">
+      <div class="bg-grid"></div>
+      <div class="bg-glow"></div>
+    </div>
 
-        <div>
-            <h1>SUrvival.mc</h1>
+    <header class="nav">
+      <div class="logo">survival.mc</div>
+      <nav class="nav-links">
+        <a href="#about">О сервере</a>
+        <a href="#features">Фишки</a>
+        <a href="#rules">Правила</a>
+        <a href="#connect">Подключиться</a>
+      </nav>
+      <button class="btn btn-outline" data-copy="survival.mc">Скопировать IP</button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Minecraft Survival</p>
+          <h1>Твой честный выживач без вайпов</h1>
+          <p class="lead">
+            Экономика игроков, события каждую неделю, ламповое комьюнити и баланс без донатного дисбаланса.
+          </p>
+          <div class="hero-actions">
+            <button class="btn" data-copy="survival.mc">IP: survival.mc</button>
+            <a class="btn btn-ghost" href="#connect">Как зайти</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <div class="stat-value" data-count="150">0</div>
+              <div class="stat-label">Онлайн пик</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value" data-count="4">0</div>
+              <div class="stat-label">Года без вайпов</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value" data-count="24">0</div>
+              <div class="stat-label">Событий в месяц</div>
+            </div>
+          </div>
         </div>
+        <div class="hero-card">
+          <div class="card-title">Статус сервера</div>
+          <div class="card-row">
+            <span class="dot online"></span>
+            <span>Онлайн</span>
+            <span class="muted">24/7</span>
+          </div>
+          <div class="card-row">
+            <span class="label">Версия</span>
+            <span class="value">1.20.1+</span>
+          </div>
+          <div class="card-row">
+            <span class="label">Режим</span>
+            <span class="value">Survival</span>
+          </div>
+          <div class="card-row">
+            <span class="label">IP</span>
+            <span class="value mono">survival.mc</span>
+          </div>
+          <button class="btn btn-full" data-copy="survival.mc">Подключиться</button>
+        </div>
+      </section>
 
-    </body>
+      <section id="about" class="section">
+        <div class="section-head">
+          <h2>О сервере</h2>
+          <p>Сервер про честное выживание, где ценится прогресс, творчество и уважение к другим игрокам.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>Без вайпов</h3>
+            <p>Мы сохраняем мир, чтобы постройки и история игроков жили годами.</p>
+          </article>
+          <article class="card">
+            <h3>Честная экономика</h3>
+            <p>Валюта через геймплей: торговля, квесты и ивенты.</p>
+          </article>
+          <article class="card">
+            <h3>Стабильный TPS</h3>
+            <p>Оптимизации и анти-лаг — фокус на комфортной игре.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="features" class="section alt">
+        <div class="section-head">
+          <h2>Фишки</h2>
+          <p>Мы добавили удобства, не ломая ванильную атмосферу.</p>
+        </div>
+        <div class="feature-grid">
+          <div class="feature">
+            <div class="feature-icon">?</div>
+            <div>
+              <h3>Кастомные данжи</h3>
+              <p>Редкие подземелья с лутом и мини-боссами.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">??</div>
+            <div>
+              <h3>Город игроков</h3>
+              <p>Место для торговли, ивентов и уютных магазинов.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">?</div>
+            <div>
+              <h3>Баланс</h3>
+              <p>Без pay-to-win. Донат — только на косметику.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">??</div>
+            <div>
+              <h3>Квесты</h3>
+              <p>Ежедневные задания с наградами и прогрессом.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="rules" class="section">
+        <div class="section-head">
+          <h2>Правила</h2>
+          <p>Коротко о главном — полный список в нашем Discord.</p>
+        </div>
+        <ol class="rules">
+          <li>Без гриферства и читов.</li>
+          <li>Уважение к игрокам и постройкам.</li>
+          <li>Торговля — через город или рынки.</li>
+          <li>Запрещены дюпы и лаг-машины.</li>
+        </ol>
+      </section>
+
+      <section id="connect" class="section alt">
+        <div class="section-head">
+          <h2>Как подключиться</h2>
+          <p>Заходи за пару минут — это просто.</p>
+        </div>
+        <div class="connect">
+          <div class="connect-step">
+            <span class="step">1</span>
+            <p>Открой Minecraft Java 1.20.1+</p>
+          </div>
+          <div class="connect-step">
+            <span class="step">2</span>
+            <p>Добавь сервер: <span class="mono">survival.mc</span></p>
+          </div>
+          <div class="connect-step">
+            <span class="step">3</span>
+            <p>Нажми «Подключиться» и залетай</p>
+          </div>
+        </div>
+        <div class="cta">
+          <button class="btn" data-copy="survival.mc">Скопировать IP</button>
+          <button class="btn btn-outline" data-copy="discord.gg/survival">Discord</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>survival.mc © 2026</div>
+      <div class="muted">Неофициальный проект. Все права на Minecraft принадлежат Mojang.</div>
+    </footer>
+
+    <div class="toast" id="toast">Скопировано</div>
+
+    <script src="main.js"></script>
+  </body>
 </html>
