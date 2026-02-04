@@ -1,4 +1,4 @@
-const toast = document.getElementById("toast");
+п»їconst toast = document.getElementById("toast");
 
 const showToast = (message) => {
   toast.textContent = message;
@@ -13,9 +13,9 @@ copyButtons.forEach((btn) => {
     const value = btn.getAttribute("data-copy");
     try {
       await navigator.clipboard.writeText(value);
-      showToast("Скопировано: " + value);
+      showToast("РЎРєРѕРїРёСЂРѕРІР°РЅРѕ: " + value);
     } catch {
-      showToast("Не удалось скопировать");
+      showToast("РќРµ СѓРґР°Р»РѕСЃСЊ СЃРєРѕРїРёСЂРѕРІР°С‚СЊ");
     }
   });
 });
@@ -54,3 +54,4 @@ const observer = new IntersectionObserver(
 if (counters.length) {
   observer.observe(counters[0]);
 }
+
